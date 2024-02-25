@@ -73,8 +73,8 @@
 			gv_options.page_scrolling = true; // true|false; does the map relenquish control of the scroll wheel when embedded in scrollable pages?
 			gv_options.autozoom_adjustment = 0; gv_options.autozoom_default = 11;
 			gv_options.centering_options = { 'open_info_window':true, 'partial_match':true, 'center_key':'center', 'default_zoom':null } // URL-based centering (e.g., ?center=name_of_marker&zoom=14)
-			gv_options.street_view = false; // true|false: allow Google Street View on the map (Google Maps only)
-			gv_options.tilt = false; // true|false: allow Google Maps to show 45-degree tilted aerial imagery?
+			gv_options.street_view = true; // true|false: allow Google Street View on the map (Google Maps only)
+			gv_options.tilt = true; // true|false: allow Google Maps to show 45-degree tilted aerial imagery?
 			gv_options.disable_google_pois = false;  // true|false: if you disable clickable POIs on Google Maps, you also lose the labels on parks, airports, etc.
 			gv_options.animated_zoom = true; // true|false: only affects Leaflet maps
 			
@@ -93,7 +93,7 @@
 			gv_options.measurement_tools = true; // true|false: put a measurement ruler on the map?
 			gv_options.measurement_options = { visible:false, distance_color:'', area_color:'' };
 			gv_options.crosshair_hidden = true;  // true|false: hide the crosshair initially?
-			gv_options.mouse_coordinates = false;  // true|false: show a "mouse coordinates" box?
+			gv_options.mouse_coordinates = true;  // true|false: show a "mouse coordinates" box?
 			gv_options.utilities_menu = { 'maptype':true, 'opacity':true, 'measure':true, 'geolocate':true, 'profile':true };
 			gv_options.allow_export = false;  // true|false
 			
