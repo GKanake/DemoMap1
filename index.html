@@ -4,7 +4,7 @@
 		<title>Nestopia Group</title>
 		<base target="_top"></base>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 		<meta name="geo.position" content="-1.2907426; 36.8233293" />
 		<meta name="ICBM" content="-1.2907426, 36.8233293" />
 	</head>
@@ -83,7 +83,7 @@
 			gv_options.recenter_button = true; // true|false: is there a 'click to recenter' button above the zoom control?
 			gv_options.geolocation_control = false; // true|false; only works on secure servers
 			gv_options.geolocation_options = { center:true, zoom:null, marker:true, info_window:true };
-			gv_options.scale_control = true; // true|false
+			gv_options.scale_control = false; // true|false
 			gv_options.map_opacity_control = false;  // true|false
 			gv_options.map_type_control = {};  // widget to change the background map
 			  gv_options.map_type_control.visible = 'auto'; // true|false|'auto': is a map type control placed on the map itself?
@@ -92,9 +92,9 @@
 			gv_options.center_coordinates = true;  // true|false: show a "center coordinates" box and crosshair?
 			gv_options.measurement_tools = false; // true|false: put a measurement ruler on the map?
 			gv_options.measurement_options = { visible:false, distance_color:'', area_color:'' };
-			gv_options.crosshair_hidden = true;  // true|false: hide the crosshair initially?
-			gv_options.mouse_coordinates = true;  // true|false: show a "mouse coordinates" box?
-			gv_options.utilities_menu = { 'maptype':true, 'opacity':true, 'measure':true, 'geolocate':true, 'profile':true };
+			gv_options.crosshair_hidden = false;  // true|false: hide the crosshair initially?
+			gv_options.mouse_coordinates = false;  // true|false: show a "mouse coordinates" box?
+			gv_options.utilities_menu = { 'maptype':false, 'opacity':true, 'measure':true, 'geolocate':true, 'profile':true };
 			gv_options.allow_export = false;  // true|false
 			
 			gv_options.infobox_options = {}; // options for a floating info box (id="gv_infobox"), which can contain anything
